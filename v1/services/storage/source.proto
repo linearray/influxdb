@@ -1,6 +1,6 @@
 syntax = "proto3";
 package com.github.influxdata.influxdb.services.storage;
-option go_package = ".;storage";
+option go_package = "./;storage";
 
 message ReadSource {
   // OrgID specifies the organization identifier for this request.

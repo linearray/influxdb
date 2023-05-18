@@ -1,6 +1,6 @@
 syntax = "proto3";
 package influxdata.platform.storage;
-option go_package = ".;datatypes";
+option go_package = "./;datatypes";
 
 message Node {
   enum Type {

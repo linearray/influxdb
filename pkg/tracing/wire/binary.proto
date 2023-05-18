@@ -1,6 +1,6 @@
 syntax = "proto3";
 package wire;
-option go_package = ".;wire";
+option go_package = "./;wire";
 
 import "google/protobuf/timestamp.proto";
 
